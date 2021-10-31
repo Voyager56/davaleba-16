@@ -1,9 +1,5 @@
 function checkOdd(number){
-    if(number%2==1){
-        return true
-    }else{
-        return false
-    }
+    return (number%2==0)? false:true
 }
 
 const getCurrencySymbolFromCode = function(currency){
